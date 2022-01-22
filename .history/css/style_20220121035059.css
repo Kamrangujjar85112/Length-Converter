@@ -1,0 +1,59 @@
+  body{        
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.header{
+    top: 0;
+    width: 100%;
+    margin: 0;
+    position: relative;
+  
+}
+.nav-ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background: rgb(59, 59, 61);
+  }
+  
+  .nav-li {
+    float: right;
+    align-items: inherit;
+  }
+  
+  .nav-li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align:justify;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  .link {
+    list-style: none;
+  }
+  button {
+    
+    margin: 25px;
+	padding: 1.1em 1em;
+	font-weight:bold;
+    width:200px;
+    text-align:justify;
+    background-color: #b4b9b7;
+}
+   
+
+
+  
+  /* Change the link color to #111 (black) on hover */
+  .nav-li a:hover {
+    background-color: #0ac577;
+  }
+.footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;      
+    background: rgb(59, 59, 61);
+}    
+/* Some more styles to beutify this example */

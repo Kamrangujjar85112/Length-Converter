@@ -1,0 +1,131 @@
+/* body */
+body{        
+    background-image: url('backg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+/* aboutpage  */
+}
+.aboutclass {
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    color: #3F51B5;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(218, 218, 226);
+    text-align: left;
+}
+/* texts on about page */
+.texts{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+/* skills list */
+.listFlex {
+    display: flex; 
+    list-style: none;
+    text-decoration: none;
+}
+/* about image */
+img {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 150px;
+}
+/* header of every page */
+.header{
+    top: 0;
+    width: 100%;
+    margin: 0;
+    position: relative;
+  
+}
+/* navbar */
+.nav-ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background: rgb(39, 39, 39);
+  }
+/* navbarlist */
+.nav-li {
+    padding-right: 10px;
+    float: right;
+    align-items: inherit;
+}
+.nav-li img{
+    align-items: left;
+}
+/* navbarlist links  */
+.nav-li a {
+    display: block;
+    color: ivory;
+    text-align:center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+/* navbar hover */
+.nav-li a:hover {
+    background-color: rgba(4, 192, 29, 0.733);
+}
+/* links on homepage */
+.link {
+    list-style: none;
+    text-align: left;
+    align-items: left;
+    margin: 10px;
+    width: 300px;
+}
+/* footer class */
+footer{
+    bottom: 0;
+    width: 98.8%;
+    position: fixed;  
+    color: ivory;
+    height: 30px;   
+    text-align: center;
+    background: rgb(39, 39, 39);
+}  
+/* button decoration    */
+button{
+    width: 100%;
+    height:40px;
+    color: ivory;
+    background-color: #141312;
+    margin:13px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* convert buttons */
+#convert{
+    width: 100px;
+    height:40px;
+    color: ivory;
+    background-color: #141312;
+    margin:13px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* reset buttons */
+#reset{
+    width: 100px;
+    height:40px;
+    color: ivory;
+    background-color: #141312;
+    margin:13px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* flex box of converters */
+.flex-container {
+    margin-top: 50px;
+    margin-left: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(218, 218, 226);
+    text-align: center;
+  }

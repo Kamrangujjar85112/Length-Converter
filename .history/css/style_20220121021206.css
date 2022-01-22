@@ -1,0 +1,29 @@
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.header{
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    margin: 0
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}    
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}

@@ -1,0 +1,46 @@
+  body{        
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.header{
+    top: 0;
+    width: 100%;
+    margin: 0;
+    position: relative;
+  
+}
+.nav-ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background: rgb(59, 59, 61);
+  }
+  
+  .nav-li {
+      padding-right: 10px;
+    float: right;
+    align-items: inherit;
+  }
+  
+  .nav-li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align:justify;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  .link {
+    list-style: none;
+  }
+
+  .nav-li a:hover {
+    background-color: #0ac577;
+  }
+.footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;      
+    background: rgb(59, 59, 61);
+}    
